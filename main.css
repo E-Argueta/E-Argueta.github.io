@@ -1,7 +1,7 @@
 html {
   font-family: Menlo, Monaco, Lucida Console, "Courier New", Courier, monospace;
   background: #fff;
-  letter-spacing: -0.025rem;
+  
 }
 
 body {
@@ -29,7 +29,7 @@ h4 {
 }
 
 a {
-    background-color: lightgreen; /* Green */
+    background-color: lightgreen;
     border: none;
     border-radius: 15px;
     color: black;
@@ -53,10 +53,16 @@ a:hover {
 
 ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fit);
-    gap: 1em;
-    margin-inline: -16px;
+    margin-top: .5px;
+}
+
+li {
+    margin-bottom: 2px;
+    display: inline-block;
+    background-color: rgb(89, 89, 89);
+    color:rgb(255, 255, 255);
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 15px;
+    
 }
