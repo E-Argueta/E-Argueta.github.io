@@ -1,6 +1,5 @@
 html {
     font-family: Menlo, Monaco, Lucida Console, "Courier New", Courier, monospace;
-    /* background: #fff7df; */
     
   }
   
@@ -52,19 +51,45 @@ html {
       /* background-color: rgb(6, 189, 6); */
   }
   
-  ul {
+  #lang-list, #data-list, #ide-list {
       list-style: none;
       margin-top: .5px;
   }
   
-  li {
+  #tech-item-list {
       margin-bottom: 2px;
       display: inline-block;
-      /* background-color: rgb(89, 89, 89); */
-      /* color:rgb(255, 255, 255); */
+      background-color: rgb(89, 89, 89);
+      color:rgb(255, 255, 255);
       padding: 8px;
       margin-right: 10px;
       border-radius: 15px;
-      
   }
   
+  #projects{
+      /* text-align: left; */
+      padding-left: 3em;
+  }
+  
+  #project-list, #item-list{
+      text-align: center;
+      display: inline-block;
+      text-decoration: dotted;
+      text-wrap: pretty;
+      text-align: left;
+  
+  }
+  
+  #projects-container{
+      display: inline-block;
+      width: 25%;
+      padding: 10px ;
+      background-color: rgb(206, 252, 252);
+      border-radius: 50px;
+      margin-bottom: 5px;
+  }
+  
+  li, #item-list {
+      /* padding-bottom: 25px; */
+      margin-bottom: 5px;
+  }
