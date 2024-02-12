@@ -48,7 +48,6 @@ html {
   
   a:hover {
       color: grey;
-      /* background-color: rgb(6, 189, 6); */
   }
   
   #lang-list, #data-list, #ide-list {
@@ -86,6 +85,5 @@ html {
   }
   
   li, #item-list {
-      /* padding-bottom: 25px; */
       margin-bottom: 5px;
   }
