@@ -28,13 +28,13 @@ h4 {
 }
 
 
-.profile-section{
+#profile-section{
     display: inline-flex;
     align-items: center;
     
 }
 
-.profile-pic{
+#profile-pic{
     flex: 1;
     border-radius: 15px;
     -webkit-border-radius: 15px;
@@ -43,7 +43,7 @@ h4 {
     -o-border-radius: 15px;
 }
 
-.profile-links{
+#profile-links{
     flex: 1;
     display: flex;
     flex-direction: column; 
@@ -67,12 +67,12 @@ a:hover {
     color: rgb(255, 255, 255);
 }
 
-.lang-list, .data-list, .ide-list {
+#lang-list, #data-list, #ide-list {
     list-style: none;
     margin-top: .5px;
 }
 
-.tech-item-list {
+#tech-item-list {
     margin-bottom: 2px;
     display: inline-block;
     background-color: rgb(89, 89, 89);
@@ -83,7 +83,7 @@ a:hover {
     border-radius: 15px;
 }
 
-.project-list, .item-list{
+#project-list, #item-list{
     text-align: center;
     display: inline-block;
     text-decoration: dotted;
@@ -94,7 +94,7 @@ a:hover {
 
 }
 
-.projects-container{
+#projects-container{
     display: inline-flex;
     align-items: center;
     width: 50%;
@@ -108,7 +108,7 @@ a:hover {
     -o-border-radius: 25%;
 }
 
-li, .item-list{
+li, #item-list{
     padding-bottom: 5px ;
     
 }
