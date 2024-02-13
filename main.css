@@ -28,7 +28,7 @@ h4 {
 }
 
 
-#profile-section{
+.profile-section{
     display: inline-flex;
     align-items: center;
     
