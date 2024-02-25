@@ -3,103 +3,165 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio | Erick Argueta</title>
-
     <link rel="stylesheet" href="main.css" />
+
+    <title>Erick Argueta | Website</title>
   </head>
   <body>
     <main>
-      <h1>Erick Argueta</h1>
-      <div class="profile-section">
-        <div id="profile-items">
-        <img id="profile-pic"
-          src="https://media.licdn.com/dms/image/D4E03AQETmAQwjWMRrg/profile-displayphoto-shrink_400_400/0/1706640949779?e=1713398400&v=beta&t=XsiC7hGxBmysahaxbNpn1o098H3GJSoUCBDuAYu2zJ8"
-          atl="Profile picture"
-          width="100px" height="100px">
+      
+      <div class="page">
+        <div class="compress-navbar">
+          <a class="side-link-to" href="#">HOME</a>
+          <a class="side-link-to" href="#about">ABOUT</a>
+          <a class="side-link-to" href="#projects">PROJECTS</a>
+          <!-- <a class="side-link-to" href="#contact">CONTACT</a> -->
         </div>
-        <div id="profile-items">
-          <a id="profile-links" href="mailto:arguetarick70@gmail.com" target="_blank">arguetarick70@gmail.com</a>
-          <a id="profile-links" href="https://maps.google.com/maps?q=siloam+springs+ar" target="_blank">Siloam Spring, AR</a>
-          <a id="profile-links" href="https://www.linkedin.com/in/eargueta-" target="_blank">LinkedIn</a>
+
+        <div class="container">
+          <div class="side-navbar">
+            <div class="side-container-hero">
+            <img
+              src="https://media.licdn.com/dms/image/D4E03AQETmAQwjWMRrg/profile-displayphoto-shrink_400_400/0/1706640949779?e=1713398400&v=beta&t=XsiC7hGxBmysahaxbNpn1o098H3GJSoUCBDuAYu2zJ8"
+            />
+            </div>
+            <div class="side-container-link-to">
+              <a class="compress-link-to" href="#">HOME</a>
+              <a class="compress-link-to" href="#about">ABOUT</a>
+              <a class="compress-link-to" href="#projects">PROJECTS</a>
+              <!-- <a class="compress-link-to" href="#contact">CONTACT</a> -->
+            </div>
+          </div>
+          <!-- <br /> -->
+          <div class="content">
+            <div class="name">
+               <h1>Erick Argueta</h1>
+            </div>
+            
+            <div class="profile-section">
+              <!-- <h1>Erick Argueta</h1> -->
+              <div class="profile-items">
+              <img id="profile-pic"
+                src="https://media.licdn.com/dms/image/D4E03AQETmAQwjWMRrg/profile-displayphoto-shrink_400_400/0/1706640949779?e=1713398400&v=beta&t=XsiC7hGxBmysahaxbNpn1o098H3GJSoUCBDuAYu2zJ8"
+                atl="Profile picture">
+              </div>
+              <div class="profile-items">
+                <a id="profile-links" href="mailto:arguetarick70@gmail.com" target="_blank">arguetarick70@gmail.com</a>
+                <a id="profile-links" href="https://maps.google.com/maps?q=siloam+springs+ar" target="_blank">Siloam Spring, AR</a>
+                <a id="profile-links" href="https://www.linkedin.com/in/eargueta-" target="_blank">LinkedIn</a>
+              </div>
+            </div>
+
+            <div class="tech-stack" id="about">
+              <b><h1>Tech Stack</h1></b>
+              <!-- Languages in which I'm profficient and confident on -->
+              <div id="tech-laanguages">
+                <h2>Languages</h2>
+                <ul id="lang-list">
+                  <li id="tech-item-list">Python</li>
+                  <li id="tech-item-list">HTML/CSS</li>
+                  <li id="tech-item-list">JavaScript</li>
+                  <li id="tech-item-list">PHP</li>
+                  <li id="tech-item-list">C#/C++</li>
+                </ul>
+              </div>
+
+              <hr />
+              <!-- Databses on which I have eork on before and I'm familiar with -->
+              <div id="tech-databases">
+                <h2>Databases</h2>
+                <ul id="data-list">
+                  <li id="tech-item-list">SQLite</li>
+                  <li id="tech-item-list">MySQL</li>
+                  <li id="tech-item-list">MS SQL Server</li>
+                </ul>
+              </div>
+
+              <hr />
+              <!-- IDE's in which perform and code regularly while learning and developing my skils -->
+              <div id="tech-ide">
+                <h2>IDE's</h2>
+                <ul id="ide-list">
+                  <li id="tech-item-list">VS Code</li>
+                  <li id="tech-item-list">Visual Studio</li>
+                  <li id="tech-item-list">PyCharm</li>
+                  <li id="tech-item-list">MySQL Workbench</li>
+                  <li id="tech-item-list">MS Server Management Studio</li>
+                  <li id="tech-item-list">Arduino</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="project-stack" id="projects">
+              <h1>Projects</h1>
+
+              <div id="projects-container">
+                <h2 id="projects">
+                  <a
+                    class="project-title"
+                    href="projects/bible_library.html"
+                    target="_blank"
+                    >API Bible Library</a
+                  >
+                </h2>
+                <ul id="project-list">
+                  <li id="list-items">
+                    Develop an application with user interface for accessing
+                    data from a bible API, said interface can be used to look
+                    through a variety of bible in different languages, making it
+                    easier to select a bible and all its contents.
+                  </li>
+                  <li id="list-items">
+                    Implemented a search function to look for specific bibles
+                    based on abbreviation, bible name, or language as well as a
+                    default response of all bibles if left blank.
+                  </li>
+                  <li id="list-items">
+                    Implemented dynamic dropdowns which update based on the
+                    bible, book, chapter and verse all sequentially based on the
+                    previous selection. This was possible by identifying the
+                    content selected and comparing it to the data of the API to
+                    always output the correct information.
+                  </li>
+                  <li id="list-items">
+                    As final touch I implemented an export option that writes
+                    the desired quote from the selected bible into a text file
+                    that contains the bible, book, chapter, and verse that from
+                    where the quote was acquire.
+                  </li>
+                </ul>
+              </div>
+
+              <div id="projects-container">
+                <h2 id="projects">
+                  <a
+                    class="project-title"
+                    href="projects/meeting_times.html"
+                    target="_blank"
+                    >Meeting Times</a
+                  >
+                </h2>
+                <ul id="project-list">
+                  <li id="list-items">
+                    Enhanced user experience for class meeting times at NWACC based on their class meeting hours spreadsheet located at their website.
+                  </li>
+                  <li id="list-items">
+                    Implemented a user interface for the different filters such
+                    as “meeting days”, “credit hours”, and “weeks” which are
+                    designed to be dependent upon each other making it easier to
+                    later display the designated meeting times.
+                  </li>
+                </ul>
+              </div>
+
+              <footer class="bottom">Portfolio | Erick Argueta 2024&copy;</footer>
+
+            </div>
+
+          </div>
         </div>
+
       </div>
-
-      <div class="tech-stack">
-        <h1>Tech Stack</h1>
-        <!-- Languages in which I'm profficient and confident on -->
-        <div id="tech-laanguages">
-          <h2>Languages</h2>
-          <ul id="lang-list">
-            <li id="tech-item-list">Python</li>
-            <li id="tech-item-list">HTML/CSS</li>
-            <li id="tech-item-list">JavaScript</li>
-            <li id="tech-item-list"> PHP</li>
-            <li id="tech-item-list">C#/C++</li>
-          </ul>
-        </div>
-
-        <hr>
-        <!-- Databses on which I have eork on before and I'm familiar with -->
-        <div id="tech-databases">
-          <h2>Databases</h2>
-          <ul id="data-list">
-            <li id="tech-item-list">SQLite</li>
-            <li id="tech-item-list">MySQL</li>
-            <li id="tech-item-list">MS SQL Server</li>
-          </ul>
-        </div>
-
-        <hr>
-        <!-- IDE's in which perform and code regularly while learning and developing my skils -->
-        <div id="tech-ide">
-          <h2>IDE's</h2>
-          <ul id="ide-list">
-            <li id="tech-item-list">VS Code</li>
-            <li id="tech-item-list">Visual Studio</li>
-            <li id="tech-item-list">PyCharm</li>
-            <li id="tech-item-list">MySQL Workbench</li>
-            <li id="tech-item-list">MS Server Management Studio</li>
-            <li id="tech-item-list">Arduino</li>
-          </ul>
-        </div>
-      </div>
-      <div class="container" >
-        <h1>Projects</h1>
-
-        <div id="projects-container">
-        <h2 id="projects"><a href="meeting_times.html" target="_blank">Meeting Times</a></h2>
-        <ul id="project-list">
-          <li id="list-items">
-            Enhanced user experience for class meeting times at NWACC based on their class meeting hours spreadsheet located at their website.
-          </li>
-          <li id="list-items">
-            Implemented a user interface for the different filters such as “meeting days”, “credit hours”, and “weeks” which are designed to be dependent upon each other making it easier to later display the designated meeting times.
-          </li>
-        </ul>
-        </div>
-        
-        <div id="projects-container">
-          <h2 id="projects"><a href="bible_library.html" target="_blank">API Bible Library</a></h2>
-          <ul id="project-list">
-            <li id="list-items">
-              Develop an application with user interface for accessing data from a bible API, said interface can be used to look through a variety of bible in different languages, making it easier to select a bible and all its contents.            </li>
-            <li id="list-items">
-              Implemented a search function to look for specific bibles based on abbreviation, bible name, or language as well as a default response of all bibles if left blank.
-            </li>
-            <li id="list-items">
-              Implemented dynamic dropdowns which update based on the bible, book, chapter and verse all sequentially based on the previous selection. This was possible by identifying the content selected and comparing it to the data of the API to always output the correct information.
-            </li>
-            <li id="list-items">
-              As final touch I implemented an export option that writes the desired quote from the selected bible into a text file that contains the bible, book, chapter, and verse that from where the quote was acquire.
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <footer>Portfolio | Erick Argueta 2024 &copy;</footer>
-      <br/>
     </main>
-
-    <script src="main.js"></script>
   </body>
 </html>
